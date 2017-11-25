@@ -20,18 +20,10 @@ public class BlaBlaBla {
 		System.out.print(" ");
 		System.out.print(third);
 		System.out.print(" ");
-		if(first != second ){
-			System.out.println("Первое и второе числа не савпадают");
-      	  
-      	  }else {
-      		     if (second == third) {
-      		    	System.out.println("Джек пот");
-      		    	 
-      		                                                               }else {System.out.println("Ничья :)");       
-      		                                                                      }
-      		     } 
-      		  
-      		  
-      	  }
-      	  
-	}
+		if(first != second && first != third && second != third){
+			System.out.println("Lose!");	  }
+		else{if(first == second && second == third) System.out.println("Молодец, джекпот");
+		    else{System.out.println("Ничья...");   }
+}
+}
+}
